@@ -4,6 +4,7 @@
 - Submission date (YYYY-MM-DD): 2026-08-27
 - Hours actually spent: 8
 - Repository / how to run it: https://github.com/HasnainKabir-repos/JP-take-home
+- Demo video: https://drive.google.com/file/d/10EAlVrZabK28at8-4gyDG3TWCoCnVcNH/view?usp=drive_link
 
 ## 1. Understanding the request
 
