@@ -1,0 +1,84 @@
+{
+  "processed_at": "2026-08-27T02:00:46.967851",
+  "filename": "invoice_11.jpg",
+  "status": "REGISTERED",
+  "raw_extraction": {
+    "supplier_name": "有限会社佐藤商店",
+    "registration_no": "T2020002000202",
+    "invoice_number": "SATO-260205",
+    "issue_date_raw": "令和8年2月5日",
+    "due_date_raw": "令和8年3月31日",
+    "currency": "JPY",
+    "lines": [
+      {
+        "description": "清掃用品一式",
+        "quantity": null,
+        "unit": "式",
+        "unit_price": null,
+        "amount": 34500
+      },
+      {
+        "description": "トイレットペーパー",
+        "quantity": 40,
+        "unit": "箱",
+        "unit_price": 1980,
+        "amount": 79200
+      }
+    ],
+    "taxes": [
+      {
+        "tax_rate_text": "10%",
+        "taxable_amount": 113700,
+        "tax_amount": 11370
+      }
+    ],
+    "printed_subtotal": 113700,
+    "printed_tax_amount": 11370,
+    "printed_total_amount": 125070
+  },
+  "normalized_invoice": {
+    "partner_code": "P-1002",
+    "invoice_number": "SATO-260205",
+    "issue_date": "2026-02-05",
+    "due_date": "2026-03-31",
+    "lines": [
+      {
+        "description": "清掃用品一式",
+        "quantity": null,
+        "unit": "式",
+        "unit_price": null,
+        "amount": 34500,
+        "tax_code": "T10"
+      },
+      {
+        "description": "トイレットペーパー",
+        "quantity": 40,
+        "unit": "箱",
+        "unit_price": 1980,
+        "amount": 79200,
+        "tax_code": "T10"
+      }
+    ],
+    "subtotal": 113700,
+    "tax_amount": 11370,
+    "total_amount": 125070
+  },
+  "verification": {
+    "passed": true,
+    "errors": [],
+    "warnings": []
+  },
+  "accounting_result": {
+    "accounting_id": "ACC-0006",
+    "partner_code": "P-1002",
+    "invoice_number": "SATO-260205",
+    "issue_date": "2026-02-05",
+    "due_date": "2026-03-31",
+    "subtotal": 113700,
+    "tax_amount": 11370,
+    "total_amount": 125070,
+    "line_count": 2
+  },
+  "error_code": null,
+  "error_message": null
+}

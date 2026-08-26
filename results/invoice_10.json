@@ -1,0 +1,44 @@
+{
+  "processed_at": "2026-08-27T02:00:37.295922",
+  "filename": "invoice_10.jpg",
+  "status": "NEEDS_REVIEW",
+  "raw_extraction": {
+    "supplier_name": "新星ロジスティクス株式会社",
+    "registration_no": "T9090009000909",
+    "invoice_number": "SSL-2026-0203",
+    "issue_date_raw": "2026年2月3日",
+    "due_date_raw": "2026年3月31日",
+    "currency": "JPY",
+    "lines": [
+      {
+        "description": "倉庫保管料(1月分)",
+        "quantity": null,
+        "unit": "式",
+        "unit_price": null,
+        "amount": 120000
+      },
+      {
+        "description": "入出庫作業",
+        "quantity": 340,
+        "unit": "件",
+        "unit_price": 220,
+        "amount": 74800
+      }
+    ],
+    "taxes": [
+      {
+        "tax_rate_text": "10%",
+        "taxable_amount": 194800,
+        "tax_amount": 19480
+      }
+    ],
+    "printed_subtotal": 194800,
+    "printed_tax_amount": 19480,
+    "printed_total_amount": 214280
+  },
+  "normalized_invoice": null,
+  "verification": null,
+  "accounting_result": null,
+  "error_code": "PARTNER_UNRESOLVED",
+  "error_message": "PARTNER_UNRESOLVED"
+}

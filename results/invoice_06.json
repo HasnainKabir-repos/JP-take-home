@@ -1,0 +1,84 @@
+{
+  "processed_at": "2026-08-27T01:59:58.549118",
+  "filename": "invoice_06.jpg",
+  "status": "REGISTERED",
+  "raw_extraction": {
+    "supplier_name": "ヤマダ製作所",
+    "registration_no": "T1010001000101",
+    "invoice_number": "YM-2026-0122",
+    "issue_date_raw": "2026年1月22日",
+    "due_date_raw": "2026年2月28日",
+    "currency": "JPY",
+    "lines": [
+      {
+        "description": "表面処理加工",
+        "quantity": 200,
+        "unit": "個",
+        "unit_price": 340,
+        "amount": 68000
+      },
+      {
+        "description": "特急対応費",
+        "quantity": null,
+        "unit": "式",
+        "unit_price": null,
+        "amount": 25000
+      }
+    ],
+    "taxes": [
+      {
+        "tax_rate_text": "10%",
+        "taxable_amount": 93000,
+        "tax_amount": 9300
+      }
+    ],
+    "printed_subtotal": 93000,
+    "printed_tax_amount": 9300,
+    "printed_total_amount": 102300
+  },
+  "normalized_invoice": {
+    "partner_code": "P-1001",
+    "invoice_number": "YM-2026-0122",
+    "issue_date": "2026-01-22",
+    "due_date": "2026-02-28",
+    "lines": [
+      {
+        "description": "表面処理加工",
+        "quantity": 200,
+        "unit": "個",
+        "unit_price": 340,
+        "amount": 68000,
+        "tax_code": "T10"
+      },
+      {
+        "description": "特急対応費",
+        "quantity": null,
+        "unit": "式",
+        "unit_price": null,
+        "amount": 25000,
+        "tax_code": "T10"
+      }
+    ],
+    "subtotal": 93000,
+    "tax_amount": 9300,
+    "total_amount": 102300
+  },
+  "verification": {
+    "passed": true,
+    "errors": [],
+    "warnings": []
+  },
+  "accounting_result": {
+    "accounting_id": "ACC-0005",
+    "partner_code": "P-1001",
+    "invoice_number": "YM-2026-0122",
+    "issue_date": "2026-01-22",
+    "due_date": "2026-02-28",
+    "subtotal": 93000,
+    "tax_amount": 9300,
+    "total_amount": 102300,
+    "line_count": 2
+  },
+  "error_code": null,
+  "error_message": null
+}

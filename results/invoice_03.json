@@ -1,0 +1,63 @@
+{
+  "processed_at": "2026-08-27T01:59:30.758342",
+  "filename": "invoice_03.pdf",
+  "status": "NEEDS_REVIEW",
+  "raw_extraction": {
+    "supplier_name": "東京フーズ株式会社",
+    "registration_no": "T3030003000303",
+    "invoice_number": "TF-2026-0115",
+    "issue_date_raw": "2026年1月15日",
+    "due_date_raw": "2026年2月15日",
+    "currency": "JPY",
+    "lines": [
+      {
+        "description": "業務用コーヒー豆 1kg",
+        "quantity": 24,
+        "unit": "袋",
+        "unit_price": 2800,
+        "amount": 67200
+      },
+      {
+        "description": "紙コップ 100個入",
+        "quantity": 30,
+        "unit": "箱",
+        "unit_price": 1200,
+        "amount": 36000
+      },
+      {
+        "description": "ミネラルウォーター 2L",
+        "quantity": 48,
+        "unit": "本",
+        "unit_price": 180,
+        "amount": 8640
+      },
+      {
+        "description": "配送手数料",
+        "quantity": null,
+        "unit": "式",
+        "unit_price": null,
+        "amount": 3500
+      }
+    ],
+    "taxes": [
+      {
+        "tax_rate_text": "10%",
+        "taxable_amount": 39500,
+        "tax_amount": 3950
+      },
+      {
+        "tax_rate_text": "8%",
+        "taxable_amount": 75840,
+        "tax_amount": 6067
+      }
+    ],
+    "printed_subtotal": 115340,
+    "printed_tax_amount": null,
+    "printed_total_amount": 125357
+  },
+  "normalized_invoice": null,
+  "verification": null,
+  "accounting_result": null,
+  "error_code": "MULTIPLE_TAX_GROUPS_REQUIRE_REVIEW",
+  "error_message": "MULTIPLE_TAX_GROUPS_REQUIRE_REVIEW"
+}

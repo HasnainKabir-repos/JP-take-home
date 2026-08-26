@@ -1,0 +1,99 @@
+{
+  "processed_at": "2026-08-27T02:00:54.793671",
+  "filename": "invoice_12.jpg",
+  "status": "REGISTERED",
+  "raw_extraction": {
+    "supplier_name": "みらいITソリューションズ株式会社",
+    "registration_no": "T5050005000505",
+    "invoice_number": "MIT-2026-014",
+    "issue_date_raw": "2026年2月10日",
+    "due_date_raw": "2026年3月31日",
+    "currency": "JPY",
+    "lines": [
+      {
+        "description": "業務システム改修",
+        "quantity": null,
+        "unit": "式",
+        "unit_price": null,
+        "amount": 450000
+      },
+      {
+        "description": "追加ライセンス",
+        "quantity": 5,
+        "unit": "本",
+        "unit_price": 24000,
+        "amount": 120000
+      },
+      {
+        "description": "値引き",
+        "quantity": null,
+        "unit": "式",
+        "unit_price": null,
+        "amount": -30000
+      }
+    ],
+    "taxes": [
+      {
+        "tax_rate_text": "10%",
+        "taxable_amount": 540000,
+        "tax_amount": 54000
+      }
+    ],
+    "printed_subtotal": 540000,
+    "printed_tax_amount": 54000,
+    "printed_total_amount": 594000
+  },
+  "normalized_invoice": {
+    "partner_code": "P-1005",
+    "invoice_number": "MIT-2026-014",
+    "issue_date": "2026-02-10",
+    "due_date": "2026-03-31",
+    "lines": [
+      {
+        "description": "業務システム改修",
+        "quantity": null,
+        "unit": "式",
+        "unit_price": null,
+        "amount": 450000,
+        "tax_code": "T10"
+      },
+      {
+        "description": "追加ライセンス",
+        "quantity": 5,
+        "unit": "本",
+        "unit_price": 24000,
+        "amount": 120000,
+        "tax_code": "T10"
+      },
+      {
+        "description": "値引き",
+        "quantity": null,
+        "unit": "式",
+        "unit_price": null,
+        "amount": -30000,
+        "tax_code": "T10"
+      }
+    ],
+    "subtotal": 540000,
+    "tax_amount": 54000,
+    "total_amount": 594000
+  },
+  "verification": {
+    "passed": true,
+    "errors": [],
+    "warnings": []
+  },
+  "accounting_result": {
+    "accounting_id": "ACC-0007",
+    "partner_code": "P-1005",
+    "invoice_number": "MIT-2026-014",
+    "issue_date": "2026-02-10",
+    "due_date": "2026-03-31",
+    "subtotal": 540000,
+    "tax_amount": 54000,
+    "total_amount": 594000,
+    "line_count": 3
+  },
+  "error_code": null,
+  "error_message": null
+}

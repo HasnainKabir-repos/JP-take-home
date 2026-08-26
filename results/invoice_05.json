@@ -1,0 +1,99 @@
+{
+  "processed_at": "2026-08-27T01:59:49.861774",
+  "filename": "invoice_05.jpg",
+  "status": "REGISTERED",
+  "raw_extraction": {
+    "supplier_name": "みらいITソリューションズ株式会社",
+    "registration_no": "T5050005000505",
+    "invoice_number": "MIT-2026-011",
+    "issue_date_raw": "2026年1月20日",
+    "due_date_raw": "2026年2月28日",
+    "currency": "JPY",
+    "lines": [
+      {
+        "description": "基幹システム保守(1月分)",
+        "quantity": null,
+        "unit": "式",
+        "unit_price": null,
+        "amount": 280000
+      },
+      {
+        "description": "障害対応(時間外)",
+        "quantity": 6,
+        "unit": "時間",
+        "unit_price": 12000,
+        "amount": 72000
+      },
+      {
+        "description": "VPN 回線利用料",
+        "quantity": null,
+        "unit": "式",
+        "unit_price": null,
+        "amount": 45000
+      }
+    ],
+    "taxes": [
+      {
+        "tax_rate_text": "10%",
+        "taxable_amount": 397000,
+        "tax_amount": 39700
+      }
+    ],
+    "printed_subtotal": 397000,
+    "printed_tax_amount": 39700,
+    "printed_total_amount": 436700
+  },
+  "normalized_invoice": {
+    "partner_code": "P-1005",
+    "invoice_number": "MIT-2026-011",
+    "issue_date": "2026-01-20",
+    "due_date": "2026-02-28",
+    "lines": [
+      {
+        "description": "基幹システム保守(1月分)",
+        "quantity": null,
+        "unit": "式",
+        "unit_price": null,
+        "amount": 280000,
+        "tax_code": "T10"
+      },
+      {
+        "description": "障害対応(時間外)",
+        "quantity": 6,
+        "unit": "時間",
+        "unit_price": 12000,
+        "amount": 72000,
+        "tax_code": "T10"
+      },
+      {
+        "description": "VPN 回線利用料",
+        "quantity": null,
+        "unit": "式",
+        "unit_price": null,
+        "amount": 45000,
+        "tax_code": "T10"
+      }
+    ],
+    "subtotal": 397000,
+    "tax_amount": 39700,
+    "total_amount": 436700
+  },
+  "verification": {
+    "passed": true,
+    "errors": [],
+    "warnings": []
+  },
+  "accounting_result": {
+    "accounting_id": "ACC-0004",
+    "partner_code": "P-1005",
+    "invoice_number": "MIT-2026-011",
+    "issue_date": "2026-01-20",
+    "due_date": "2026-02-28",
+    "subtotal": 397000,
+    "tax_amount": 39700,
+    "total_amount": 436700,
+    "line_count": 3
+  },
+  "error_code": null,
+  "error_message": null
+}

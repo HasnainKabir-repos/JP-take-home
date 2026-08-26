@@ -1,0 +1,84 @@
+{
+  "processed_at": "2026-08-27T01:59:40.371211",
+  "filename": "invoice_04.jpg",
+  "status": "REGISTERED",
+  "raw_extraction": {
+    "supplier_name": "有限会社佐藤商店",
+    "registration_no": "T2020002000202",
+    "invoice_number": "SATO-260118",
+    "issue_date_raw": "2026/01/18",
+    "due_date_raw": "2026/03/31",
+    "currency": "JPY",
+    "lines": [
+      {
+        "description": "事務用品セット",
+        "quantity": 15,
+        "unit": "セット",
+        "unit_price": 4800,
+        "amount": 72000
+      },
+      {
+        "description": "コピー用紙 A4",
+        "quantity": 60,
+        "unit": "箱",
+        "unit_price": 2450,
+        "amount": 147000
+      }
+    ],
+    "taxes": [
+      {
+        "tax_rate_text": "10%",
+        "taxable_amount": 219000,
+        "tax_amount": 21900
+      }
+    ],
+    "printed_subtotal": 219000,
+    "printed_tax_amount": 21900,
+    "printed_total_amount": 240900
+  },
+  "normalized_invoice": {
+    "partner_code": "P-1002",
+    "invoice_number": "SATO-260118",
+    "issue_date": "2026-01-18",
+    "due_date": "2026-03-31",
+    "lines": [
+      {
+        "description": "事務用品セット",
+        "quantity": 15,
+        "unit": "セット",
+        "unit_price": 4800,
+        "amount": 72000,
+        "tax_code": "T10"
+      },
+      {
+        "description": "コピー用紙 A4",
+        "quantity": 60,
+        "unit": "箱",
+        "unit_price": 2450,
+        "amount": 147000,
+        "tax_code": "T10"
+      }
+    ],
+    "subtotal": 219000,
+    "tax_amount": 21900,
+    "total_amount": 240900
+  },
+  "verification": {
+    "passed": true,
+    "errors": [],
+    "warnings": []
+  },
+  "accounting_result": {
+    "accounting_id": "ACC-0003",
+    "partner_code": "P-1002",
+    "invoice_number": "SATO-260118",
+    "issue_date": "2026-01-18",
+    "due_date": "2026-03-31",
+    "subtotal": 219000,
+    "tax_amount": 21900,
+    "total_amount": 240900,
+    "line_count": 2
+  },
+  "error_code": null,
+  "error_message": null
+}

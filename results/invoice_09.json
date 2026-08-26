@@ -1,0 +1,76 @@
+{
+  "processed_at": "2026-08-27T02:00:29.324538",
+  "filename": "invoice_09.pdf",
+  "status": "NEEDS_REVIEW",
+  "raw_extraction": {
+    "supplier_name": "大阪機械工業株式会社",
+    "registration_no": "T4040004000404",
+    "invoice_number": "OSK-26-0128",
+    "issue_date_raw": "2026年1月28日",
+    "due_date_raw": "2026年2月20日",
+    "currency": "JPY",
+    "lines": [
+      {
+        "description": "シャフト加工",
+        "quantity": 37,
+        "unit": "個",
+        "unit_price": 2733,
+        "amount": 101121
+      },
+      {
+        "description": "熱処理",
+        "quantity": 37,
+        "unit": "個",
+        "unit_price": 891,
+        "amount": 32967
+      }
+    ],
+    "taxes": [
+      {
+        "tax_rate_text": "10%",
+        "taxable_amount": 134088,
+        "tax_amount": 13408
+      }
+    ],
+    "printed_subtotal": 134088,
+    "printed_tax_amount": 13408,
+    "printed_total_amount": 147497
+  },
+  "normalized_invoice": {
+    "partner_code": "P-1004",
+    "invoice_number": "OSK-26-0128",
+    "issue_date": "2026-01-28",
+    "due_date": "2026-02-20",
+    "lines": [
+      {
+        "description": "シャフト加工",
+        "quantity": 37,
+        "unit": "個",
+        "unit_price": 2733,
+        "amount": 101121,
+        "tax_code": "T10"
+      },
+      {
+        "description": "熱処理",
+        "quantity": 37,
+        "unit": "個",
+        "unit_price": 891,
+        "amount": 32967,
+        "tax_code": "T10"
+      }
+    ],
+    "subtotal": 134088,
+    "tax_amount": 13408,
+    "total_amount": 147496
+  },
+  "verification": {
+    "passed": false,
+    "errors": [
+      "TOTAL_MISMATCH: computed=147496, printed=147497"
+    ],
+    "warnings": []
+  },
+  "accounting_result": null,
+  "error_code": "VERIFICATION_FAILED",
+  "error_message": "TOTAL_MISMATCH: computed=147496, printed=147497"
+}
